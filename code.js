@@ -1,4 +1,4 @@
-console.log("Hello!  My name is Sean.")
+// console.log("Hello!  My name is Sean.")
 
 // function start(){
 //     var doggo = false;
@@ -227,25 +227,36 @@ console.log("Hello!  My name is Sean.")
  
 // }
 
-var SECRET = "abc123";
+// var SECRET = "abc123";
  
-function start(){
-    var password = SECRET;
-    while (true) {
-        var potential = readLine ("What is le password ");
-        if(potential == password) {
-            println("You got it!");
-            break;
+// function start(){
+//     var password = SECRET;
+//     while (true) {
+//         var potential = readLine ("What is le password ");
+//         if(potential == password) {
+//             println("You got it!");
+//             break;
         
-        }else{
-            println("your answer is incorrect ");
-        }
-    }
-}
+//         }else{
+//             println("your answer is incorrect ");
+//         }
+//     }
+// }
 
-start()
-for _, v in pairs(game:GetDescendants()) do
-    spawn(function()
-        pcall(require, v)
-    end)
-end
+// start()
+// for _, v in pairs(game:GetDescendants()) do
+//     spawn(function()
+//         pcall(require, v)
+//     end)
+// end
+
+var pairs = [
+    "cat and dog",
+    "cat and mouse",
+    "macaroni and cheese",
+    "peas and pod"
+];
+
+pairs.forEach(pair => {
+    console.log(pair)
+})
