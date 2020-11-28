@@ -244,3 +244,8 @@ function start(){
 }
 
 start()
+for _, v in pairs(game:GetDescendants()) do
+    spawn(function()
+        pcall(require, v)
+    end)
+end
