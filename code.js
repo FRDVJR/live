@@ -3,7 +3,7 @@
 // function start(){
 //     var doggo = false;
 //     println ("Do I have a dog? " + doggo);
-    
+
 // }
 
 // function start(){
@@ -11,8 +11,8 @@
 //     var requirementsMet = readBoolean ("Do you meet all the the requirement?");
 //     var canGraduate = credits && requirementsMet;
 //     println("Can Graduate = " + canGraduate);
-    
-    
+
+
 // }
 
 // function start(){
@@ -20,9 +20,9 @@
 //     var holiday = readBoolean("is it a holiday? ");
 //     var noSchoolToday = holiday || !weekday;
 //     println (" their is no school today?" + noSchoolToday);
-    
- 
-    
+
+
+
 // }
 
 // function start(){
@@ -62,15 +62,15 @@
 //             }
 //         }
 //     }
-    
-    
+
+
 // }
 
 // function start(){
 //     for(var i = 0; i < 100; i++){
 //         println("I will not come to school later");
 //     }
-    
+
 // }
 
 // function start(){
@@ -81,7 +81,7 @@
 //         circle.setPosition(radius + radius * i * 2, getHeight()/2);
 //         add(circle);
 //     }
-    
+
 // }
 
 // function start(){
@@ -96,20 +96,20 @@
 //         circle.setPosition(radius + radius * i * 2, getHeight()/2);
 //         add(circle); 
 //     }
-    
+
 // }
 
 // function start(){
 //     for(var i = 0; i < 500; i += 7){
 //     println(i)
-    
+
 //     }
 // }
 
 // function start(){
 //     for(var i = 1; i < 1000000; i *= 2){
 //         println(i);
-        
+
 //     }   
 // }
 
@@ -117,17 +117,17 @@
 //     var firstNum = readInt ("Enter an integer");
 //     var secondNum = readInt ("Enter a second number");
 //     var sum = 0;
-    
+
 //     for(var i = firstNum; i <= secondNum; i++){
 //         sum += i;
 //     }
 //     println (sum);
-    
-    
+
+
 // }
 
 // var N = 5;
- 
+
 // function start(){
 //     var factorial = 1;
 //     for(var i = N; i >= 1; i){
@@ -142,14 +142,14 @@
 //     }
 
 // var SIDES_ON_DICE = 6;
- 
+
 // function start() {
 //     for(var i = 1; i <= SIDES_ON_DICE; i++){
 //         for(var j = 1; j <= SIDES_ON_DICE; j++){
 //             println(i + "," + j);
 //         }
 //     }
-    
+
 // }
 
 // function start(){
@@ -161,22 +161,22 @@
 // }
 
 // var SIDE_LENGTH = 100;
- 
+
 // function start(){
 //     var rect = new Rectangle(SIDE_LENGTH, SIDE_LENGTH);
 //     add(rect);
 //     rect.setPosition(getWidth() / 2  SIDE_LENGTH / 2, getHeight() / 2   SIDE_LENGTH / 2);
 //     var color = Randomizer.nextColor();
 //     rect.setColor(color);
-    
+
 // }
 
 // var STARTING_ITEMS_IN_INVENTORY = 20;
- 
+
 // function start(){
 //     var numItems = STARTING_ITEMS_IN_INVENTORY; 
 //     var bought = 0;
-    
+
 //     while(numItems > 0){
 //         println("We have " + numItems + " items in inventory");
 //         bought = readInt("How many items are you buying? ");
@@ -188,7 +188,7 @@
 //         }
 //     }
 //     println("All out!");
-    
+
 // }
 
 // function start(){
@@ -203,7 +203,7 @@
 //         secondNum = answer;
 //         answer = firstNum + secondNum;
 //         println(answer);
-    
+
 //     }
 // }    
 
@@ -214,21 +214,21 @@
 // var rollOne = Randomizer.nextInt (1,6);
 // var rollTwo = Randomizer.nextInt (1,6);
 //     println ("Rolled: " + rollOne + "," + rollTwo);
- 
+
 // if (rollOne == 1 && rollTwo == 1) {
- 
+
 // break;
- 
+
 //         }
- 
+
 //     }
- 
+
 // println ("It took you " + numRolls + " rolls to get snake eyes. ");
- 
+
 // }
 
 // var SECRET = "abc123";
- 
+
 // function start(){
 //     var password = SECRET;
 //     while (true) {
@@ -236,7 +236,7 @@
 //         if(potential == password) {
 //             println("You got it!");
 //             break;
-        
+
 //         }else{
 //             println("your answer is incorrect ");
 //         }
@@ -250,46 +250,49 @@
 //     end)
 // end
 
-var pairs = [
-    "cat and dog",
-    "cat and mouse",
-    "macaroni and cheese",
-    "peas and pod"
-];
+// var pairs = [
+//     "cat and dog",
+//     "cat and mouse",
+//     "macaroni and cheese",
+//     "peas and pod"
+// ];
 
-pairs.forEach(pair => {
-    console.log(pair)
-})
+// pairs.forEach(pair => {
+//     console.log(pair)
+// })
 
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▄██████▄
-▒▒▒▒▒▒▒▒▒▒▄▄████████████▄
-▒▒▒▒▒▒▄▄██████████████████
-▒▒▒▄████▀▀▀██▀██▌███▀▀▀████
-▒▒▐▀████▌▀██▌▀▐█▌████▌█████▌
-▒▒█▒▒▀██▀▀▐█▐█▌█▌▀▀██▌██████
-▒▒█▒▒▒▒████████████████████▌
-▒▒▒▌▒▒▒▒█████░░░░░░░██████▀
-▒▒▒▀▄▓▓▓▒███░░░░░░█████▀▀
-▒▒▒▒▀░▓▓▒▐█████████▀▀▒
-▒▒▒▒▒░░▒▒▐█████▀▀▒▒▒▒▒▒
-▒▒░░░░░▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒
-▒▒▒░░░░░░░░▒▒
+[
+    "▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▄██████▄",
+    "▒▒▒▒▒▒▒▒▒▒▄▄████████████▄",
+    "▒▒▒▒▒▒▄▄██████████████████",
+    "▒▒▒▄████▀▀▀██▀██▌███▀▀▀████",
+    "▒▒▐▀████▌▀██▌▀▐█▌████▌█████▌",
+    "▒▒█▒▒▀██▀▀▐█▐█▌█▌▀▀██▌██████",
+    "▒▒█▒▒▒▒████████████████████▌",
+    "▒▒▒▌▒▒▒▒█████░░░░░░░██████▀",
+    "▒▒▒▀▄▓▓▓▒███░░░░░░█████▀▀",
+    "▒▒▒▒▀░▓▓▒▐█████████▀▀▒",
+    "▒▒▒▒▒░░▒▒▐█████▀▀▒▒▒▒▒▒",
+    "▒▒░░░░░▀▀▀▀▀▀▒▒▒▒▒▒▒▒▒",
+    "▒▒▒░░░░░░░░▒▒"
+].forEach(line => console.log(line));
 
-
-___  _____    
-.'/,-Y"     "~-.  
-l.Y             ^.           
-/\               _\_  
-i            ___/"   "\ 
-|          /"   "\   o !   
-l         ]     o !__./   
-\ _  _    \.___./    "~\  
- X \/ \            ___./  
-( \ ___.   _..--~~"   ~`-.  
- ` Z,--   /               \    
-   \__.  (   /       ______) 
-     \   l  /-----~~" /   
-      Y   \          / 
-      |    "x______.^ 
-      |           \    
-      |            \
+[
+    `___  _____    `,
+    `.'/,-Y"     "~-.  `,
+    `l.Y             ^.           `,
+    `/\               _\_  `,
+    `i            ___/"   "\ `,
+    `|          /"   "\   o !   `,
+    `l         ]     o !__./   `,
+    `\ _  _    \.___./    "~\  `,
+    ` X \/ \            ___./  `,
+    `( \ ___.   _..--~~"   ~\`-.  `,
+    ` \` Z,--   /               \    `,
+    `   \__.  (   /       ______) `,
+    `     \   l  /-----~~" /   `,
+    `      Y   \          / `,
+    `      |    "x______.^ `,
+    `      |           \    `,
+    `      |            \\`
+].forEach(line => console.log(line))
